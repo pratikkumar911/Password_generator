@@ -1,13 +1,129 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+html, body {
+    height: 100%;
+    font-family: sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    background-color: #e5e5e5;  
+  
+  }
+  
+  header {
+    background-color: #ec3a49;
+    color: white;
+    padding: 0.5rem 0;  
+  }
+  
+  h1 {  
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 10px;
+  }
+  
+  .border-bottom {
+    border-bottom: 2px solid gray;
+  }
+  
+  .app {  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    flex: 1;
+    
+  }
+  
+  .pwd-container {
+    max-width: 550px;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: white;
+    border: 3px solid lightgray;
+    border-radius: 10px;
+    margin: 10px;
+  }
+  
+  .password {
+    flex: 1;
+    margin: 10px;
+    padding-top: 4px;
+    overflow: hidden;
+    display: inline;
+    white-space: nowrap;
+  }
+  
+  
+  .buttons {
+    flex: 0;
+    align-items: center;
+    justify-content: center;  
+  }
+  
+  .btn {
+    width: 85px;
+    height: 40px;
+    box-sizing: border-box;
+    margin-right: 7px;
+    background-color: #ffffff;
+    border: 2px solid;
+    border-radius: 10px;
+    font-size: 1.0rem;
+    font-weight: bold;
+  }
+  
+  .form {
+    max-width: 550px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: white;
+    border: 3px solid lightgray;
+    border-radius: 10px;
+    padding: 30px;  
+  }
+  
+  .form * {
+    font-size: 1.2rem;
+  }
+  
+  input[type=number] {
+    text-align: right;
+  }
+  
+  
+  
+  input[type=checkbox] {
+    margin-right: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .form h2{
+    width: 100%;
+    font-size: 2rem;
+  }
+  
+  .btn-red {
+    border-color: #ec3a49;
+    color: #ec3a49;
+  }
+  
+  .btn-blue {
+    border-color: #2d89ef;
+    color: #2d89ef;
+  }
+  
